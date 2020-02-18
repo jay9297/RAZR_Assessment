@@ -66,8 +66,8 @@ class Square {
   constructor(sideLength) {
     // Make sure that the sideLength passed in is valid
     if(this.isValidSideLength(sideLength)) {
-      // Calculate the size (perimeter) of the square and the area
-      this.size = sideLength * 4;
+      // Calculate the area of the square
+      this.size = sideLength;
       this.area = Math.pow(sideLength, 2);
     }
     // Else, return an error message
